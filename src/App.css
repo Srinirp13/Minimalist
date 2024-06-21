@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 8vh;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+}
+
+.navimg {
+    height: 30px;
+    margin-left: 100%;
+}
+
+
+/* mainfile */
+
+.main {
+    min-height: 100dvh;
+}
+
+.sec1 {
+    background-image: url("./fireback.jpg");
+    height: 60vh;
+    background-size: cover;
+}
+
+.sec1sub {
+    padding: 50px;
+    margin-top: 120px;
+}
+
+.sec1sub h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.btnagain {
+    width: 150px;
+    border-radius: 0;
+    color: red;
+    height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sec2 {
+    padding: 50px;
+}
+
+.sec2div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec2h1 {
+    color: orange;
+    font-size: 22px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+.hrm {
+    background-color: orange;
+    height: 5px;
+    width: 100%;
+}
+
+.sec2 p {
+    max-width: 50%;
+    text-align: center;
+}
+
+.crac {
+    height: 150px;
+}
+
+
+.sec2secdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2secdiv p {
+    font-size: 20px;
+}
+
+.sec3 {
+    padding: 50px;
+}
+
+
+.sec3sub {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(180, 178, 178);
+    padding: 10px;
+}
+
+
+.sec3img {
+    height: 450px;
+    width: 100%;
+}
+
+.btnagain1 {
+    width: 150px;
+    border-radius: 0;
+    color: white;
+    height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sec3desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.sec3desc h1 {
+    font-size: 20px;
+}
+
+.sec3subdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* bottomnav */
+
+
+.botnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(13, 202, 13);
+    padding: 10px;
+}
+
+.botnav h1 {
+    color: yellow;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.iconclass {
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+/* popup */
+
+.mainpop {
+    display: flex;
+    position: fixed;
+    height: 80%;
+    top: 0px;
+    background-color: white;
+    margin: 60px;
+    overflow-y: scroll;
+    border-width: 5px;
+    border-style: solid;
+    
+}
+
+.mainimg {
+    height: 600px;
+    width: 100%;
+}
+
+.subims {
+    height: 120px;
+    width: 200px;
+    margin: 5px;
+}
+
+.pop1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 10px;
+}
+
+.pop1sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pop2 {
+    padding: 10px;
+    width: 40%;
+}
+
+.cros {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.pop2fsub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.pop2fsub h1 {
+    font-size: 35px;
+}
+
+.pop2subh {
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.pop2subp{
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.secp {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.secp1 {
+    margin-bottom: 25px;
+}
+
+.shrm {
+    margin-top: 25px;
+}
+
+
+.btnagain2 {
+    width: 100%;
+    border-radius: 0;
+    color: white;
+    height: 35px;
+    font-size: 25px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+
